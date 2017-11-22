@@ -1,0 +1,119 @@
+body {
+	background: black;
+	font-family: 'Roboto Slab', serif;
+}
+
+audio {
+	display: none;
+}
+h2 {
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	font-size: 150%
+}
+
+h3 {
+	color: white;
+	font-size: 25px;
+	font-size: 125%
+}
+
+.mainlogo {
+	display: inline-block;
+	height: 30%;
+	width: 30%;
+}
+
+.ques {
+	display: none;
+}
+
+.fullquestion {
+	/*display: inline-block;*/
+	text-align: center;
+	color: white;
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: .5%;
+	border-color: #0000FF;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 25px;
+}
+
+.picture2 {
+  display: inline-block;
+	width: 60%;
+	height: 60%;
+}
+
+img { max-width: 100%; }
+
+.btn-dark {
+	text-align: center;
+	width: 35%;
+	margin-top: 10px;
+	margin-left: 31%;
+	font-size: 75%;
+
+}
+
+ul {
+	list-style: none;
+}
+
+.modal-background {
+  padding: 40px;
+  background-color: rgba(0, 0, 0, .3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  padding: 40px 20px;
+  color: #444;
+  background-color: white;
+  width: 60%;
+  text-align: center;
+	font-size: 80%;
+}
+
+iframe {
+	width: 50%;
+	height: 50;
+}
+
+.active {
+
+}
+
+@media only screen and (max-width: 700px) {
+		/*body {
+			max-width: 100%;
+		}*/
+		.btn-dark {
+        max-width: 100%;
+				font-size: 10px;
+				text-align: center;
+				margin-left: -5%;
+				margin-right: 0%;
+				width: 100%
+    }
+		.fullquestion {
+			padding: 10px;
+			font-size: 13px;
+			width: 60%;
+			margin-left: 22%;
+		}
+		.mainlogo {
+			width: 100%;
+		}

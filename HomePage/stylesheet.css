@@ -1,0 +1,55 @@
+body {
+	background: black;
+	font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+}
+
+img { max-width: 100%; }
+
+.picture1 {
+  width: 65%;
+  height: 10%;
+
+}
+
+.btn {
+  height: 25px;
+  font-size: 15px;
+  margin: 5px;
+  font-family: 'Roboto Slab', serif;
+  border-radius: 25px;
+}
+
+.modal-background {
+  padding: 40px;
+  background-color: rgba(0, 0, 0, .3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  padding: 40px 20px;
+  color: #444;
+  background-color: white;
+  width: 60%;
+  text-align: center;
+}
+
+.picture2 {
+  display: inline-block;
+}
